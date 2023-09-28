@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button class="option-button js-button " onclick=" 
+  const button = document.querySelector('.js-button');
+  if (!button.classList.contains('button-actived')) {
+    button.classList.add('button-actived');
+  } else {
+    button.classList.remove('button-actived');
+  }
+  ">Gaming</button>
+
+ 
+  <button  class="option-button js-button-2" onclick="
+  const button = document.querySelector('.js-button-2');
+  if (!button.classList.contains('button-actived')){
+    button.classList.add('button-actived');
+  }else{
+    button.classList.remove('button-actived');
+  }
+  ">Music</button>
+  <button  class="option-button js-button-3" onclick="
+  const button = document.querySelector ('.js-button-3');
+  if (!button.classList.contains('button-actived')){
+    button.classList.add('button-actived');
+  }else{
+    button.classList.remove('button-actived');
+  }">Tech</button>
+
+ 
+</body>
+<style>
+  .option-button{
+   background-color: rgb(230, 230, 230);
+    border: none;
+    margin-right: 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+
+  }
+
+.button-actived{
+  color: white;
+  background-color: black;
+}
+  
+</style>
+
+</script>
+</html>
